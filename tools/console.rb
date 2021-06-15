@@ -15,6 +15,7 @@ v1 = VentureCapitalist.new("Peter Thiel", 20000000)
 v2 = VentureCapitalist.new("Mark Cuban", 2000000000)
 v3 = VentureCapitalist.new("Kanye West", 1000000000)
 
+# investment amount should be positive
 f1 = FundingRound.new(s1, v1, "Angel", 1000)
 f2 = FundingRound.new(s2, v2, "Seed", 2000)
 f3 = FundingRound.new(s3, v1, "Series A", 3000)

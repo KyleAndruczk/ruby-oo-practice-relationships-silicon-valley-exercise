@@ -9,9 +9,7 @@ class FundingRound
         @startup = startup
         @venture_capitalist = venture_capitalist
         @type = type
-        if investment > 0
-            @investment = investment
-        end
+        @investment = investment # investment should be positive
         @@all << self
     end
 
